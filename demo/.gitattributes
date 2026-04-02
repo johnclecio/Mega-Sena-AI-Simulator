@@ -1,2 +1,21 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+
+# Forçar Java
+*.java linguist-language=Java
+
+# XML do Maven
+pom.xml linguist-language=XML
+
+# Arquivos de configuração Spring Boot
+application.properties linguist-language=Properties
+application.yml linguist-language=YAML
+
+
+# Testes Java
+src/test/**/*.java linguist-language=Java
+
+# Arquivos de configuração adicionais
+*.gradle linguist-language=Groovy
+*.gradle.kts linguist-language=Kotlin
